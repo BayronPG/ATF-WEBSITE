@@ -101,3 +101,10 @@ a {
   display: block;
   margin: 0 auto 10px auto;
 }
+.company-description {
+  background: #f7f7f7;
+  border-left: 4px solid #ff9800;
+  padding: 16px;
+  margin-bottom: 16px;
+  font-style: italic;
+}
