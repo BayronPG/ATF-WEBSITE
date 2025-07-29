@@ -124,3 +124,45 @@ footer {
   margin-bottom: 16px;
   font-style: italic;
 }
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Sección de comercial */
+#comercial {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#comercial h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Contenedor del video */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+/* Estilo del video */
+.atf-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
