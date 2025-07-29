@@ -125,15 +125,17 @@ footer {
   font-style: italic;
 }
 
-.Videos-container {
+/* Cambia a minúsculas si tu HTML usa "videos-container" */
+.videos-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 0;
 }
 
+/* Cambia a minúsculas si tu HTML usa "atf-videos" */
 .atf-videos {
   width: 100%;
-  height: 90;
+  height: 90px; /* Antes faltaba px */
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   display: block;
