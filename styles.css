@@ -125,16 +125,6 @@ footer {
   font-style: italic;
 }
 
-/* Sección del video */
-#Comercial {
-  padding: 40px 20px;
-  margin: 20px auto;
-  max-width: 1200px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
-
 .Videos-container {
   max-width: 800px;
   margin: 0 auto;
